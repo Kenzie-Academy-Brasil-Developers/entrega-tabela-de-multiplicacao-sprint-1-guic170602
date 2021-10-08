@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiplication Table</title>
+    </head>
+
+    <body>
+        <h1>Multiplication Table</h1>
+        <script>
+            function Multiplication(x) { 
+                let output = []
+                for (let i=0; i<=x; i++) {
+                    output.push([])
+                    for(let j=0; j<=x; j++){
+                        output[i].push(i*j) 
+                    }
+                }
+                console.table(output)
+            }
+        </script>
+    </body>
+</html>
